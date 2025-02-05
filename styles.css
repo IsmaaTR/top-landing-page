@@ -6,13 +6,22 @@ body {
     flex-direction: column;
 }
 
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.header,
+.page-description {
+    background-color: #1F2937;
+    padding: 0 300px;
+}
+
 .header {
     flex-basis: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    padding: 0 300px;
     color: white;
 }
 
@@ -31,4 +40,37 @@ body {
 .header-logo {
     font-weight: bold;
     font-size: large;
+}
+
+.page-description {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 50px;
+    flex-basis: 350px;
+}
+
+.description-text,
+.description-img {
+    flex: 1;
+}
+
+.description-img {
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    padding: 10px 30px;
+    font-weight: bold;
+    border: none;
 }
