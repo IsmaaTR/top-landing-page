@@ -14,7 +14,7 @@ img {
 .header,
 .page-description,
 .footer {
-    background-color: #1F2937;
+    background-color: #004225;
 }
 
 .header,
@@ -79,7 +79,7 @@ img {
 }
 
 .sign-up-button {
-    background-color: #3882F6;
+    background-color: #FFB000;
     border-radius: 8px;
     color: white;
     font-size: medium;
@@ -95,7 +95,7 @@ img {
 }
 
 #information-title {
-    color: #1F2937;
+    color: #004225;
     font-size: 30px;
     font-weight: 900;
     display: flex;
@@ -115,7 +115,7 @@ img {
     border-radius: 8px;
     width: 100%;
     aspect-ratio: 1/1;
-    border: solid 3px #3882F6;
+    border: solid 3px #FFB000;
 }
 
 .information-content p {
@@ -154,7 +154,7 @@ img {
 
 .sign-up-content {
     color: white;
-    background-color: #3882F6;
+    background-color: #FFB000;
     border-radius: 8px;
     flex: 1;
     padding: 2% 10%;
