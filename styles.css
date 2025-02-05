@@ -14,6 +14,11 @@ img {
 .header,
 .page-description {
     background-color: #1F2937;
+}
+
+.header,
+.page-description,
+.information {
     padding: 0 300px;
 }
 
@@ -23,6 +28,7 @@ img {
     justify-content: space-between;
     align-items: center;
     color: white;
+    gap: 20px;
 }
 
 .header-links {
@@ -48,6 +54,7 @@ img {
     align-items: center;
     gap: 50px;
     flex-basis: 350px;
+    flex-wrap: wrap;
 }
 
 .description-text,
@@ -73,4 +80,38 @@ img {
     padding: 10px 30px;
     font-weight: bold;
     border: none;
+}
+
+.information {
+    flex-basis: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+#information-title {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+#information-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-content {
+    padding: 30px;
+}
+
+.information-content img {
+    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: solid 3px #3882F6;
+}
+
+.information-content p {
+    text-align: center;
 }
