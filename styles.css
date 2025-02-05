@@ -18,9 +18,13 @@ img {
 
 .header,
 .page-description,
+.sign-up-container{
+    padding: 0 300px;
+}
+
 .information,
 .quote {
-    padding: 0 300px;
+    padding: 0 400px;
 }
 
 .header {
@@ -138,4 +142,31 @@ img {
     align-self: flex-end;
     font-weight: bold;
     padding-right: 20px;
+}
+
+.sign-up-container {
+    flex-basis: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-content {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    flex: 1;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-content .sign-up-button {
+    border: solid white 2px;
+}
+
+#sign-up-title {
+    font-weight: bold;
+    font-size: large;
 }
