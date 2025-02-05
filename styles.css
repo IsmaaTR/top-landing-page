@@ -18,7 +18,8 @@ img {
 
 .header,
 .page-description,
-.information {
+.information,
+.quote {
     padding: 0 300px;
 }
 
@@ -114,4 +115,27 @@ img {
 
 .information-content p {
     text-align: center;
+}
+
+.quote {
+    flex-basis: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 20px;
 }
