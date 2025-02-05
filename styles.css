@@ -12,7 +12,8 @@ img {
 }
 
 .header,
-.page-description {
+.page-description,
+.footer {
     background-color: #1F2937;
 }
 
@@ -169,4 +170,12 @@ img {
 #sign-up-title {
     font-weight: bold;
     font-size: large;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
 }
