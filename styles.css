@@ -14,7 +14,7 @@ img {
 .header,
 .page-description,
 .footer {
-    background-color: #004225;
+    background-color: #23486A;
 }
 
 .header,
@@ -72,6 +72,10 @@ img {
     padding: 50px 0;
 }
 
+.description-img img {
+    min-width: 300px;
+}
+
 .title {
     font-size: 48px;
     font-weight: 900;
@@ -79,7 +83,7 @@ img {
 }
 
 .sign-up-button {
-    background-color: #FFB000;
+    background-color: #EFB036;
     border-radius: 8px;
     color: white;
     font-size: medium;
@@ -95,27 +99,32 @@ img {
 }
 
 #information-title {
-    color: #004225;
+    color: #23486A;
     font-size: 30px;
     font-weight: 900;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #information-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .information-content {
-    padding: 30px;
+    flex: 0 1 23%;
+    text-align: center;
+    min-width: 200px;
 }
 
 .information-content img {
     border-radius: 8px;
     width: 100%;
     aspect-ratio: 1/1;
-    border: solid 3px #FFB000;
+    border: solid 3px #EFB036;
 }
 
 .information-content p {
@@ -135,7 +144,7 @@ img {
     font-size: 30px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    color: #23486A;
     margin: 0;
 }
 
@@ -161,6 +170,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .sign-up-content .sign-up-button {
